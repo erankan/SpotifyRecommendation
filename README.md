@@ -4,7 +4,8 @@ A recommendation system of playlist according to your mode.
 
 **Data files**
     
-    The data we used in our project.
+    The data we crawl in our project.
+    data_set_song.csv the dataset from kaggle we used to match songs.
     
 
 **spotify_crawler.py**
