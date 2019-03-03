@@ -47,7 +47,7 @@ def plot_features_correlation(data, start, stop, sentiment):
 
 def main():
     sentiment = ["Happy", "Sad", "Angry"]
-    file_name = ["full_data_happy_songs", "full_data_sad_songs", "full_data_angry_songs"]
+    file_name = ["Data_Files/full_data_happy_songs", "Data_Files/full_data_sad_songs", "Data_Files/full_data_angry_songs"]
     for i in range(3):
         dt = pd.read_csv(file_name[i] + ".csv")
         plot_features_correlation(dt, 0, 50, sentiment[i])

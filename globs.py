@@ -11,10 +11,10 @@ KEY_SAD_WORDS = {'Sucks', 'Down', 'Dark', 'Sad', 'Loss', 'low'}
 
 KEY_ANGRY_WORDS = {'Heart Beats', "Rockin' Vibes", 'Rage Beats', 'Dark & Stormy', 'Angry', }
 
-HAPPY_SONGS_FILE_SET = 'data_happy_songs.txt'
+HAPPY_SONGS_FILE_SET = 'Data_Files/data_happy_songs.txt'
 
-ANGRY_SONGS_FILE_SET = 'data_angry_songs.txt'
+ANGRY_SONGS_FILE_SET = 'Data_Files/data_angry_songs.txt'
 
-SAD_SONGS_FILE_SET = 'data_sad_songs.txt'
+SAD_SONGS_FILE_SET = 'Data_Files/data_sad_songs.txt'
 
 USER_ID = 'cry2rekkemb4d0ap145a5lyoj'

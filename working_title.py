@@ -197,7 +197,7 @@ def build_score_list(average_vec, build_vec_feature, filter_add_func):
     A method to build the best songs sorted by the filter_add_func.
     """
     score_similarity = list()
-    with open('data_set_song.csv', 'rt') as data_set:
+    with open('Data_Files/data_set_song.csv', 'rt') as data_set:
         reader = csv.DictReader(data_set)
 
         # we go over the data set and compute the manhattan distance between the track and the average vector.
